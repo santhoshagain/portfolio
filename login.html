@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      max-width: 320px;
+      margin: 60px auto;
+      padding: 25px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background: #f9f9f9;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      box-sizing: border-box;
+      font-size: 18px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #222;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Welcome Back, Cyber Ninja 👾</h2>
+  <form id="loginForm" autocomplete="off" onsubmit="return validateLogin(event)">
+    <input type="text" id="username" name="username" placeholder="Enter your username" required />
+    <input type="password" id="password" name="password" placeholder="Enter your password" required />
+    <button type="submit">Launch 🚀</button>
+  </form>
+
+  <script>
+   let attempts = 0;
+
+function validateLogin(e) {
+  e.preventDefault();
+  attempts++;
+
+  if (attempts <= 2) {
+    alert(`⚠️ Attempt ${attempts} failed! Hackers beware, you only get 2 tries!`);
+  } else if (attempts <= 4) {
+    alert("🚫 Alert! Too many failed attempts. Are you a script kiddie? Try again later!");
+  } else if (attempts === 5) {
+    alert("🛑 Access blocked! Your hacking skills need a firmware update ⚙️🛠️");
+    document.querySelector("button[type='submit']").disabled = true;
+  }
+
+  return false;
+}
+
+  </script>
+
+</body>
+</html>

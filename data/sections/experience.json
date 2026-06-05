@@ -1,0 +1,101 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+ "icon": {
+    "img": "images/pictures/lji.jpg",
+    "fa": "",
+    "faColors": { "bg": null, "fill": null }
+  },
+  "dates": {
+    "start": "04/29/2026",
+    "end": "Present"
+  },
+ "locales": {
+    "en": {
+      "title": "**Product Security Engineer**",
+      "info": "Loyalty Juggernaut Inc.",
+      "text": "<p>Responsible for securing web applications and APIs through security assessments, vulnerability management, security automation, and cloud security initiatives.</p><ul><li>Performing Application Security and API Security assessments across products and releases</li><li>Validating access control, authentication, authorization, and business logic security controls</li><li>Driving security automation and supporting Secure SDLC and DevSecOps practices</li></ul><p>Focused on improving the overall security posture of products by identifying risks early and enabling secure-by-design development.</p>",
+      "tags": ["Product Security", "Application Security", "API Security", "Security Automation", "AWS Security", "DevSecOps"]
+    }
+  }
+                },
+                {
+        
+  "icon": {
+    "img": "images/pictures/lji.jpg",
+    "fa": "",
+    "faColors": { "bg": null, "fill": null }
+  },
+  "dates": {
+    "start": "06/23/2025",
+    "end": "04/28/2026"
+  },
+"locales": {
+    "en": {
+      "title": "**Product Security Intern**",
+      "info": "Loyalty Juggernaut Inc.",
+      "text": "<p>Worked on securing web applications and APIs through manual security testing, API security assessments, vulnerability validation, and security automation.</p><ul><li>Performed Application Security, API Security, and RBAC testing across multiple product releases</li><li>Identified authentication, authorization, session management, and business logic vulnerabilities</li><li>Developed automation solutions to improve security testing efficiency and coverage</li></ul><p>Contributed to product security initiatives through release security validation, real-world attack simulations, and secure development practices.</p>",
+      "tags": ["Product Security", "Application Security", "API Security", "Security Automation", "RBAC", "Secure SDLC"]
+    }
+  }
+}
+,
+                {
+                "icon": {
+                    "img": "images/pictures/place-4.png",
+                    "fa": "",
+                    "faColors": { "bg": null, "fill": null }
+                },
+                "dates": {
+                    "start": "02/01/2024",
+                    "end": "06/01/2025"
+                },
+                "locales": {
+                    "en": {
+                    "title": "**Cybersecurity Mentor**",
+                    "info": "KL University Cybersecurity Club",
+                    "text": "<p>Mentored over 300 students through workshops and hands-on labs covering:</p><ul><li>Secure coding, OWASP Top 10, API protection</li><li>Cloud fundamentals: IAM, S3 access, and cloud monitoring</li><li>Networking: IP addressing, VLANs, and routing using Packet Tracer</li><li>Secure backend flows and version control in full-stack projects</li></ul><p>Organized 15+ interactive sessions including live CTFs and attack-defense simulations, boosting engagement by 80% and improving peer code quality by 30%.</p>",
+                    "tags": ["Cybersecurity", "OWASP Top 10", "Cloud", "API Security", "CTF", "Networking", "Git"]
+                    }
+                }
+                },
+                {
+                "icon": {
+                    "img": null,
+                    "fa": "fa-solid fa-bug",
+                    "faColors": { "bg": "#1f2937", "fill": "#f43f5e" }
+                },
+                "dates": {
+                    "start": "01/01/2024",
+                    "end": "Present"
+                },
+                "locales": {
+                    "en": {
+                    "title": "**Bug Bounty Hunter**",
+                    "info": "Freelance / HackerOne & Bugcrowd",
+                    "text": "<p>Actively hunting real-world web vulnerabilities and reporting them responsibly across platforms like HackerOne and Bugcrowd. Specialized in:</p><ul><li>OWASP Top 10 exploitation</li><li>Advanced recon, bypass techniques, and logic flaws</li><li>API abuse and misconfiguration detection</li></ul><p>Continuously sharpening offensive security skills through hands-on challenges and platform reports.</p>",
+                    "tags": ["Bug Bounty", "Web Exploitation", "OWASP Top 10", "API Abuse", "Recon", "Responsible Disclosure"]
+                    }
+                }
+                }
+
+
+            ]
+        }
+    ]
+}

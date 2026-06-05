@@ -1,0 +1,80 @@
+{
+  "locales": {
+    "en": {
+      "title": "Education",
+      "title_long_prefix": "This is my",
+      "title_long": "**Educational** Background"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "academic",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/place-6.png",
+            "fa": "",
+            "faColors": {"bg": null, "fill": null}
+          },
+          "dates": {
+            "start": "",
+            "end": "2026"
+          },
+          "locales": {
+            "en": {
+              "title": "**B.Tech** in Computer Science & Engineering",
+              "info": "KL University",
+              "text": "<p>Graduated with a B.Tech in Computer Science Engineering (Cyber Security) from KL University with a CGPA of 9.25, building a strong foundation in Cybersecurity, Cloud Security, and Application Security through hands-on projects, internships, practical security assessments, and a capstone project on an AI-powered Zero Trust Security Model for API Threat Detection in Cloud Environments.</p>",
+              "tags": ["Cybersecurity", "Web Dev", "AWS", "Zero Trust"]
+            }
+          }
+        },
+
+        {
+          "icon": {
+            "img": "images/pictures/diploma.png",
+            "fa": "",
+            "faColors": {"bg": null, "fill": null}
+          },
+          "dates": {
+            "start": "",
+            "end": "2023"
+          },
+          "locales": {
+            "en": {
+              "title": "**Diploma** in Computer Engineering",
+              "info": "Balajee Polytechnic College",
+              "text": "Gained strong practical and theoretical knowledge in computer science fundamentals, programming, and networking. Successfully completed real-time academic projects.",
+              "tags": ["C Programming", "Computer Networks", "DBMS"]
+            }
+          }
+        },
+
+        {
+          "icon": {
+            "img": "images/pictures/place-5.png",
+            "fa": "",
+            "faColors": {"bg": null, "fill": null}
+          },
+          "dates": {
+            "start": "",
+            "end": "2019"
+          },
+          "locales": {
+            "en": {
+              "title": "**10th Standard**",
+              "info": "Sri Chaitanya High School",
+              "text": "Completed my secondary education with a strong academic foundation in Mathematics and Science. Developed early interest in computing and logical thinking during this phase.",
+              "tags": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

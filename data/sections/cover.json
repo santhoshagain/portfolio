@@ -1,0 +1,222 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Santhosh Kumar Chintada!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {}
+            },
+
+            "items": [
+                {
+                    "value": "Hyderabad – IN",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "2200039028cser@gmail.com",
+                    "links": [
+                        {"href": "mailto:2200039028cser@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@santhoshagain",
+                    "links": [
+                        {"href": "https://github.com/santhoshagain"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+{
+  "id": "about_me",
+  "component": "ArticleInfoBlock",
+  "config": {},
+  "locales": {
+    "en": { "title": "**A little bit** about me..." }
+  },
+  "items": [
+    {
+      "icon": { "img": "images/svg/logo.svg" },
+      "locales": {
+        "en": {
+"text": "<p>Hey! I’m currently working as a <b>Product Security Engineer</b>, where I help secure web applications and APIs through security assessments, vulnerability validation, and security automation. I work on <b>Application Security</b>, <b>API Security</b>, <b>RBAC Validation</b>, <b>Business Logic Testing</b>, and <b>AWS Cloud Security</b> while supporting secure development practices and building products that are secure by design. Always learning, always curious - let’s build secure and resilient applications together.</p>"
+        }
+      }
+    }
+  ]
+},
+
+{
+  "id": "snapshot",
+  "component": "ArticleServices",
+  "config": {},
+  "locales": {
+    "en": { "title": "Snapshot" }
+  },
+  "items": [
+    {
+  "icon": { "fa": "fa-solid fa-shield-halved" },
+  "locales": {
+    "en": {
+      "title": "Product Security Engineer",
+      "info": "Loyalty Juggernaut Inc. – Product Security, Application Security & API Security"
+    }
+  }
+}
+,
+    {
+      "icon": { "fa": "fa-solid fa-award" },
+      "locales": {
+        "en": {
+          "title": "Special Jury Award",
+          "info": "Won at Innothon 2024 for an OSINT Cyber Tool"
+        }
+      }
+    },
+    {
+      "icon": { "fa": "fa-solid fa-user-graduate" },
+      "locales": {
+        "en": {
+          "title": "Head of Training",
+          "info": "Led security workshops at KL Cybersecurity Club"
+        }
+      }
+    },
+    {
+      "icon": { "fa": "fa-solid fa-certificate" },
+      "locales": {
+        "en": {
+          "title": "JNCIA-Junos",
+          "info": "Juniper Certified Associate (Valid through 2028)"
+        }
+      }
+    }
+  ]
+},
+
+{
+  "id": "resumes",
+  "component": "ArticleGrid",
+  "config": {
+    "format": "grid"
+  },
+  "locales": {
+    "en": { "title": "Resumes" }
+  },
+  "items": [
+    {
+  "value": "View",
+  "links": [
+    { "href": "https://drive.google.com/file/d/1E2CqGNKyRWsbNsW9aen5QLoorsTHLsGh/view?usp=sharing" }
+  ],
+  "icon": {
+    "fa": "fa-solid fa-shield-halved",
+    "img": null,
+    "faColors": { "bg": null, "fill": null }
+  },
+  "locales": {
+    "en": {
+      "title": "Product Security",
+      "info": "AppSec, SAST/SCA, Secure SDLC & DevSecOps – Loyalty Juggernaut Inc."
+    }
+  }
+}
+  ]
+},
+
+{
+  "id": "interests",
+  "component": "ArticleGrid",
+  "config": { "format": "grid" },
+  "locales": {
+    "en": { "title": "Personal & Professional **Interests**" }
+  },
+  "items": [
+    {
+      "icon": { "fa": "fa-solid fa-globe" },
+      "locales": {
+        "en": {
+          "title": "Web & Cybersecurity",
+          "info": "Secure development and ethical hacking"
+        }
+      }
+    },
+    {
+      "icon": { "fa": "fa-solid fa-code-branch" },
+      "locales": {
+        "en": {
+          "title": "Content Creation",
+          "info": "Videos and tech content for social platforms"
+        }
+      }
+    },
+    {
+      "icon": { "fa": "fa-solid fa-brain" },
+      "locales": {
+        "en": {
+          "title": "Self-development",
+          "info": "Journaling, mindset, growth and health"
+        }
+      }
+    },
+    {
+      "icon": { "fa": "fa-solid fa-chart-line" },
+      "locales": {
+        "en": {
+          "title": "Investing",
+          "info": "Mutual funds, SIPs, and long-term strategy"
+        }
+      }
+    },
+    {
+      "icon": { "fa": "fa-solid fa-gamepad" },
+      "locales": {
+        "en": {
+          "title": "Gaming",
+          "info": "Relaxation via FPS, RPGs, and simulations"
+        }
+      }
+    },
+    {
+      "icon": { "fa": "fa-solid fa-photo-film" },
+      "locales": {
+        "en": {
+          "title": "Media Editing",
+          "info": "Photo and video creation with tech focus"
+        }
+      }
+    }
+  ]
+}
+]
+}
